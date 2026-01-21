@@ -1,0 +1,22 @@
+# FRP 客户端配置
+
+# 代理列表
+proxies:
+  - name: "llm-gateway"
+    type: "tcp"
+    local_ip: "127.0.0.1"
+    local_port: 8003
+    remote_port: 8003
+
+  - name: "ssh"
+    type: "tcp"
+    local_ip: "127.0.0.1"
+    local_port: 22
+    remote_port: 22022
+
+  - name: "postgres"
+    type: "tcp"
+    local_ip: "127.0.0.1"
+    local_port: 5432
+    remote_port: 8004
+

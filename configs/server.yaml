@@ -1,0 +1,21 @@
+# FRP 服务端配置
+
+bind:
+  addr: "0.0.0.0"
+  port: 443
+
+# 仪表盘配置
+dashboard:
+  enable: true
+  addr: "0.0.0.0"
+  port: 7500
+  user: "admin"
+  password: "admin"
+
+# 允许的端口范围
+allow_ports:
+  - start: 8000
+    end: 9000
+  - start: 22000
+    end: 23000
+
