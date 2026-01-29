@@ -6,17 +6,17 @@ proxies:
     type: "tcp"
     local_ip: "127.0.0.1"
     local_port: 8003
-    remote_port: 8003
+    remote_port: 8005
 
   - name: "ssh"
     type: "tcp"
     local_ip: "127.0.0.1"
     local_port: 22
-    remote_port: 22022
+    remote_port: 22023
 
   - name: "postgres"
     type: "tcp"
     local_ip: "127.0.0.1"
     local_port: 5432
-    remote_port: 8004
+    remote_port: 8006
 
